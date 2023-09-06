@@ -40,7 +40,7 @@ cleos wallet import
 # paste your private key to import
 ```
 
-Create UX testnet account (using https://t.me/ux_testnet_faucet_bot):
+Create UX testnet account using this [telegram bot](https://t.me/ux_testnet_faucet_bot):
 ```
 # hit 'Start' and follow the instructions. Use the public key of the newly generated keypair above to set up your account
 create account <account_name> <public_key>
@@ -49,7 +49,7 @@ send utx to <account_name>
 send utxram to <account_name>
 ```
 
-ZEOS Faucet:
+[ZEOS Faucet](https://faucet.zeos.one/?user=):
 ```
 https://faucet.zeos.one/?user=<account_name>
 ```
@@ -79,5 +79,5 @@ wallet move
 # use '-' in the above notation to move assets in the other direction (from your ZEOS wallet back into your testnet account)
 ```
 
-Check out what your private transactions look like on chain using the (UX Testnet block explorer)[https://testnet.uxnetwork.io/].
+Check out what your private transactions look like on chain using the [UX Testnet block explorer](https://testnet.uxnetwork.io/).
 
