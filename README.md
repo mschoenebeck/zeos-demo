@@ -79,4 +79,5 @@ wallet move
 # use '-' in the above notation to move assets in the other direction (from your ZEOS wallet back into your testnet account)
 ```
 
+Check out what your private transactions look like on chain using the (UX Testnet block explorer)[https://testnet.uxnetwork.io/].
 
