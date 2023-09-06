@@ -1,5 +1,7 @@
 # ZEOS Demo
 
+On Ubuntu 22.04, open a new terminal window (`ctrl`+`alt`+`t`) and follow the instructions below.
+
 Setup `cleos`:
 ```
 wget https://github.com/AntelopeIO/leap/releases/download/v4.0.4/leap_4.0.4-ubuntu22.04_amd64.deb
@@ -10,7 +12,13 @@ cleos version full
 
 Setup `zeos-cli`:
 ```
-wget ...
+# fetch binary and make it executable
+wget https://github.com/mschoenebeck/zeos-demo/releases/download/v0.1-alpha/zeos-cli
+chmod +x zeos-cli
+# fetch params files
+wget https://github.com/mschoenebeck/zeos-demo/releases/download/v0.1-alpha/params_burn.bin
+wget https://github.com/mschoenebeck/zeos-demo/releases/download/v0.1-alpha/params_mint.bin
+wget https://github.com/mschoenebeck/zeos-demo/releases/download/v0.1-alpha/params_transfer.bin
 # start the CLI interface by executing:
 ./zeos-cli
 # print the public permission to import it into cleos:
